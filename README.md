@@ -12,7 +12,19 @@ The most imporant point to host via Raspberry Pi on your local network, and not 
 
 !! You do not want to make a open an unsecure connection from your raspberry to the internet !!
 
+
+
+
+![photo](https://user-images.githubusercontent.com/124690871/231871128-2c9e056c-06bb-4b84-a2ab-4a5740b06123.png)
+
+In this image above you can see the interaction between the raspberry pi (the server), your router, and the device you are opening the website on (the client). You are hosting the website on you raspberry pi, it will function as a server. You can access the server (the local host) by searching the ip-adress and the right port on your mobile-phone or laptop if you are connected to the same network. This is what we call a LAN environment, a Local Area Network. This means that the network connects computers and other devices located in a locally restricted area (your network) in such a way that they can communicate with each other. 
+
+
 ## Conclusion
+This way of interaction has multiple advantages, for example: 
+- Nobody outside your network can acces this website. 
+- Raspberry Pi's are cheap, power-efficient, and very powerful for their size.
+- Django is a a secure, up-to-date, DevOps Compatible, Backward compatible and simple framework. 
 
 ## Video Demo
 
