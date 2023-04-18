@@ -53,11 +53,13 @@ https://www.codingforentrepreneurs.com/blog/raspberry-pi-network-server-guide-wi
 https://translate.google.com/?hl=nl
 
 https://www.youtube.com/watch?v=czo1-uUIi5s&ab_channel=FREEDOMTECH
+
 All powerpoint slides of the course
 
 ### Django
 https://www.djangoproject.com/
 https://nl.wikipedia.org/wiki/Model-view-controller-model
+
 All powerpoint slides of the course
 
 
