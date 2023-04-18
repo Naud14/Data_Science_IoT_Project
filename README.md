@@ -32,11 +32,23 @@ The way of interaction in your local network and using a Raspberry + Django have
 - Raspberry Pi's are cheap, power-efficient, and very powerful for their size.
 - Django is a secure, up-to-date, DevOps Compatible, Backward compatible and simple framework. 
 
-The real challenge of this project understand how your pipeline is working (what is happening with your data) and being able to set up a connection so every device can access the same website. You need to know the basics of IoT, how LAN works and of course how to work with a Raspberry Pi! 
+The real challenge of this project is to understand how your pipeline is working (what is happening with your data) and being able to set up a connection so every device can access the same website. You need to know the basics of IoT, how LAN works and of course how to work with a Raspberry Pi! 
 
 Looking back, combining this two courses was a very good idea. I have learned a lot along the way. From hours of Youtube tutorials till tens of websites looking for (background) information. I wanted to really understand how I can deploy the django framework in a safe and 'easy' way and use it on my local network. And I think it worked out really well. 
 
 ## Video Demo
 
 ## Tutorial 
+
+## Sources 
+# IoT
+https://nl.wikipedia.org/wiki/Local_area_network 
+https://en.wikipedia.org/wiki/Internet_of_things
+https://forums.raspberrypi.com/viewtopic.php?t=90262
+https://medium.com/@deepankaracharyya/deploying-a-django-app-with-apache-mod-wsgi-windows-e9712dc07bba
+https://www.codingforentrepreneurs.com/blog/raspberry-pi-network-server-guide-with-django-ssh/
+
+# Django
+https://www.djangoproject.com/
+
 
