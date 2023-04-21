@@ -5,4 +5,6 @@ First we will make sure we have all updates and installations needed for creatin
 Open the terminal on your Raspberry Pi (if you are not connected to your Raspberry Pi, please walk through the first tutorial). 
 Enter the following commands: 
 
-```sudo apt upgrade```
+```sudo apt install```
+ ```sudo apt install python3 python3-pip```
+ ```sudo pip3 install django```
