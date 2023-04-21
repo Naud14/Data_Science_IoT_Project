@@ -64,3 +64,7 @@ You can try to access the server from another device and you will see the server
 For example when I enter ```http://192.168.1.73:8000``` in google on my laptop (so not connected in any physical way to the Raspberry Pi) I will also get the message of succesfully installation!
 
 <img width="1523" alt="image" src="https://user-images.githubusercontent.com/124690871/233686113-d757498b-edae-4284-be1a-404c21e3a7eb.png">
+
+## Conclusion
+When you came to this point, you can access with this ip and port the Django project from everywhere on your local network! So if you are connected to the same WIFI as the Raspberry is, you can access this project from every device! 
+
