@@ -39,6 +39,9 @@ For this project I did not use any form of Gen-AI like ChatGPT.
 Looking back, combining this two courses was a very good idea. I have learned a lot along the way. From hours of Youtube tutorials till tens of websites looking for (background) information. I wanted to really understand how I can deploy the django framework in a safe and 'easy' way and use it on my local network. And I think that worked out really well. I can use this knowledge for any project in the future what is about a Raspberry Pi or depoloyment of django. 
 
 ## Video Demo
+In this video I will demonstrate that I can use the local network with my Raspberry Pi so I can deploy my Django project and open it on multiple devices connected to the same network! 
+Click the link for full video demo -> https://youtu.be/RHxW5iv88lQ 
+
 
 ## Tutorial 
 The tutorial is split in to mutiple semi-tutorials. The first one is: 
