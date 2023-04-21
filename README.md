@@ -73,8 +73,10 @@ https://www.youtube.com/watch?v=czo1-uUIi5s&ab_channel=FREEDOMTECH
 All powerpoint slides of the course
 
 ### Django
-https://www.djangoproject.com/
 https://nl.wikipedia.org/wiki/Model-view-controller-model
+https://www.cloudflare.com/learning/ssl/why-is-http-not-secure/#:~:text=HTTPS%20is%20HTTP%20with%20encryption,far%20more%20secure%20than%20HTTP.
+https://docs.djangoproject.com/en/4.2/
+
 
 All powerpoint slides of the course
 
