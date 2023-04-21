@@ -61,6 +61,6 @@ Then go back one file because we want to be able to access the manage.py file. S
 And again run the server on the specific ip and port! 
 
 You can try to access the server from another device and you will see the server!!
-For example when I enter http://192.168.1.73:8000 in google on my laptop (so not connected in any physical way to the Raspberry Pi) I will also get the message of succesfully installation!
+For example when I enter ```http://192.168.1.73:8000``` in google on my laptop (so not connected in any physical way to the Raspberry Pi) I will also get the message of succesfully installation!
 
 <img width="1523" alt="image" src="https://user-images.githubusercontent.com/124690871/233686113-d757498b-edae-4284-be1a-404c21e3a7eb.png">
