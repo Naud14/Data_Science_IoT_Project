@@ -36,4 +36,4 @@ Open VNC viewer, log-in/create account, and enter the ip-address of your RP and 
 
 ![image](https://user-images.githubusercontent.com/124690871/233621301-c7cecc33-3fb7-451d-8127-924d9f93f4bd.png)
 
-For now we are totaly ready to set up our local host and make sure we can host the Django website on our local network! 
+For now we are totally ready to set up our local host and make sure we can host the Django website on our local network! 
