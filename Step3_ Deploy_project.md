@@ -30,9 +30,22 @@ When you run that command you will see this:
 
 The error message is 'invalid host header' ... 'You may need to add ... to ALLOWED_HOSTS'. What this error tells us, is that we need to add our ip adrress to the build in ALLOWED_HOSTS in django. 
 
-And when you are checking underneath your runcommand at the Raspberry Pi, you can see someone wanted to access your project: 
+And when you are checking underneath your run-command at the Raspberry Pi, you can see someone wanted to access your project: 
 <img width="566" alt="image" src="https://user-images.githubusercontent.com/124690871/233679760-d659106a-f9b5-464e-be10-0dffd0cdf1f0.png">
 
 
 ## Add ip to allowed hosts
+To be able to add our ip address to the ALLOWED_HOSTS list in Django, we need to open some files in our project, so quit running the server with ```CTRL + C```. We want to change the setting so first we need to change directory with ```cd```. 
+```cd test_app/``` When you hit ```ls``` now you can see there are multiple files in our project folder. For exmaple: 
+- asgi.py
+- settings.py
+- urls.py
+- wsgi.py
+
+We need to go to the settings.py so enter ```open settings.py```. You will be send to this page: 
+You can see the list with allowed hosts and it is empty... 
+Just add your ip in the list as a string, so your list should look like this: 
+ALLOWED_HOSTS = ['192.168.1.73']
+<img width="685" alt="image" src="https://user-images.githubusercontent.com/124690871/233681599-dd5bc950-71af-40fa-b9ef-e945652a6294.png">
+
 
