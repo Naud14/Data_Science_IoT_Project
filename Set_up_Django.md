@@ -44,4 +44,6 @@ It means your Django project is working! And as an local host!
 
 ![image](https://user-images.githubusercontent.com/124690871/233638539-bfd44ca5-6bc9-4b3c-bb58-1b8f05c89e7c.png)
 
+For Django documentation click this link -> https://docs.djangoproject.com/en/4.2/ 
+
 
