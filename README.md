@@ -48,10 +48,14 @@ In this tutorial we are going to set up the Raspberry Pi, make sure we have a go
 Than we are going to set up our Django project in the following tutorial: 
 - Set up Django project
 
-The final tutorial is about deploying the Django project to our local network
+In this tutorial we are looking
+
+
 - Deploy project on local network
 
-After this we are albe to achieve what I demonstarte in the video demo above! 
+The final tutorial is about deploying the Django project to our local network
+
+After this we are albe to achieve what I demonstrated in the video demo above! 
 
 So in short: 
 1. Set up Raspberry Pi 4 Computer
