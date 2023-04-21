@@ -15,5 +15,6 @@ So when we run this command, we can check if the port is really open. Use anothe
 ```nc -vz 192.168.1.73 8000``` This command is checking if a specific port is open or not. 
 
 When you run it, you will probably see this: 
+
 <img width="426" alt="image" src="https://user-images.githubusercontent.com/124690871/233676934-948cd0ac-ccc3-4eb9-9b0b-67df291638ab.png">
 
