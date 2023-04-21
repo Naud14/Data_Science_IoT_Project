@@ -44,17 +44,23 @@ To be able to add our ip address to the ALLOWED_HOSTS list in Django, we need to
 
 We need to go to the settings.py so enter ```open settings.py```. You will be send to this page: 
 You can see the list with allowed hosts and it is empty... 
+
 <img width="685" alt="image" src="https://user-images.githubusercontent.com/124690871/233681599-dd5bc950-71af-40fa-b9ef-e945652a6294.png">
 
 
 BUT when we open the file in this way we do not have the permissions because only root users can modify files. So another way to open a file is: 
 ```sudo nano settings.py```
 Just add your ip in the list as a string, so your list should look like this: 
-ALLOWED_HOSTS = ['192.168.1.73'] and turn debug to False (important safety measure)
-It will finaly look like this: 
+ALLOWED_HOSTS = ['192.168.1.73'] and turn debug to True (to demonstrate it is working, normally you should turn debug to False because of security measures)
+For saving press ```CTRL + X``` and press Yes to save modified buffer and finally press enter. 
+It will look like this: 
 
 <img width="811" alt="image" src="https://user-images.githubusercontent.com/124690871/233683740-3d58ce2a-5909-40cd-abd1-8162b50f5fed.png">
 
+Then go back one file because we want to be able to access the manage.py file. So hit ```cd ..```. 
+And again run the server on the specific ip and port! 
 
+You can try to access the server from another device and you will see the server!!
+For example when I enter http://192.168.1.73:8000 in google on my laptop (so not connected in any physical way to the Raspberry Pi) I will also get the message of succesfully installation!
 
-
+<img width="1523" alt="image" src="https://user-images.githubusercontent.com/124690871/233686113-d757498b-edae-4284-be1a-404c21e3a7eb.png">
