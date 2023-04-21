@@ -41,7 +41,13 @@ Looking back, combining this two courses was a very good idea. I have learned a 
 ## Video Demo
 
 ## Tutorial 
-I have used the IDE Visual Studio Code. 
+The tutorial is split in to mutiple semi-tutorials. The first one is: 
+- Set up Raspberry Pi 4 Computer Model B (4GB RAM)
+In this tutorial we are going to set up the Raspberry Pi, make sure we have a good connection and make sure we can access the Raspberry Pi remotely from our own laptop/PC. 
+Than we are going to set up our Django project in the following tutorial: 
+- Set up Django project
+The final tutorial is about deploying the Django project to our local network
+- Deploy project on local network
 
 ## Sources 
 ### IoT
