@@ -52,8 +52,7 @@ In this tutorial we are going to set up the Raspberry Pi, make sure we have a go
 Than we are going to set up our Django project in the following tutorial: 
 - Set up Django project
 
-In this tutorial we are looking
-
+In this tutorial we are covering the part of setting up a Django project.
 
 - Deploy project on local network
 
