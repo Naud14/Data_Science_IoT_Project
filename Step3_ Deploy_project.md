@@ -28,7 +28,11 @@ To see what is happening at a specific port, you can type in (for exmaple) googl
 When you run that command you will see this: 
 <img width="1021" alt="image" src="https://user-images.githubusercontent.com/124690871/233679005-be4f4f39-94c2-478e-ac8e-95b6413ab17e.png">
 
-And when you are checking underneath your runcommand at the Raspberry Pi, you can see someone wanted your project: 
+The error message is 'invalid host header' ... 'You may need to add ... to ALLOWED_HOSTS'. What this error tells us, is that we need to add our ip adrress to the build in ALLOWED_HOSTS in django. 
+
+And when you are checking underneath your runcommand at the Raspberry Pi, you can see someone wanted to access your project: 
 <img width="566" alt="image" src="https://user-images.githubusercontent.com/124690871/233679760-d659106a-f9b5-464e-be10-0dffd0cdf1f0.png">
 
+
+## Add ip to allowed hosts
 
