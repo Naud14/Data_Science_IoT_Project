@@ -51,6 +51,7 @@ https://forums.raspberrypi.com/viewtopic.php?t=90262
 https://medium.com/@deepankaracharyya/deploying-a-django-app-with-apache-mod-wsgi-windows-e9712dc07bba
 https://www.codingforentrepreneurs.com/blog/raspberry-pi-network-server-guide-with-django-ssh/
 https://translate.google.com/?hl=nl
+https://discover.realvnc.com/what-is-vnc-remote-access-technology#:~:text=VNC%20stands%20for%20Virtual%20Network,right%20in%20front%20of%20it.
 
 https://www.youtube.com/watch?v=czo1-uUIi5s&ab_channel=FREEDOMTECH
 
