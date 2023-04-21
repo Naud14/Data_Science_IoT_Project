@@ -5,7 +5,7 @@ Final delivery for Data-Science project.
 Hi i'm Naud, a 20 year old Informatica student at Hogeschool Rotterdam and I participated the course Data-science for IoT. This github repository is my final delivery for this course. In this read-me file I will explain what the idea of this final project is, what my conclusion is and I will demonstrate in a short video what you can expect if you finish the tutorial! This explanation is meant for everyone (technical and non-technical people)!
 For this project I have combined two courses, Django for webdevelopment and this course. 
 
-## The idea
+## The idea + data-pipeline
 The idea of this project is to set up a website with the django-framework (Django is a high-level Python web framework that enables rapid development of secure and maintainable websites). For this project we are going to use a Raspberry Pi 4 for hosting this Django-website on a local network. 
 In short: Using the Raspberry Pi to set up a local host, upload our django project to it, and be able to access this django project from every device connected to this network.
 After talking with a Kevin Krul (a Django expert), he advised me to host your django website on a local server instead of directly to the internet. 
@@ -18,7 +18,8 @@ The most important point to host via Raspberry Pi on your local network, and not
 
 ![photo](https://user-images.githubusercontent.com/124690871/231871128-2c9e056c-06bb-4b84-a2ab-4a5740b06123.png)
 
-In this image above you can see the interaction between the raspberry pi (the server), your router, and the device you are opening the website on (the client). You are hosting the website on you raspberry pi, it will function as a server. You can access the server (the local host) by searching the ip-adress and the right port on your mobile-phone or laptop if you are connected to the same network. This is what we call a LAN environment, a Local Area Network. This means that the network connects computers and other devices located in a locally restricted area (your network) in such a way that they can communicate with each other. 
+In this image above (the data-pipeline) you can see the interaction between the raspberry pi (the server), your router, and the device you are opening the website on (the client). You are hosting the website on you raspberry pi, it will function as a server. You can access the server (the local host) by searching the ip-adress and the right port on your mobile-phone or laptop if you are connected to the same network. This is what we call a LAN environment, a Local Area Network. This means that the network connects computers and other devices located in a locally restricted area (your network) in such a way that they can communicate with each other. 
+So the data is stored at the Raspberry Pi. When a device wants to open the project, it makes connection to the WIFI, uses the ip address of the Raspberry and the data is transferred through the WIFI from the Raspberry to your device. 
 
 ### IoT-link
 This whole course is about the internet of things. It describes physical objects (or groups of such objects) with sensors, processing ability, software and other technologies that connect and exchange data with other devices and systems over the Internet or other communications networks. In this case we use the Raspberry Pi to set up a local host, upload our django project to it, and be able to access this django project from every device connected to this network. 
