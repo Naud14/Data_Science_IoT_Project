@@ -27,7 +27,7 @@ Enter the following commands:
  - First the manage.py 
  - Second the test_app file
 
-If those two files are in there, you succesfully made a django project. For now we have to set it up so we can run the project. 
+If those two files are in there, you successfully made a django project. For now we have to set it up so we can run the project. 
 Run the command: 
 ```sudo python3 manage.py migrate``` For migration on the django project
 
@@ -45,5 +45,6 @@ It means your Django project is working! And as an local host!
 ![image](https://user-images.githubusercontent.com/124690871/233638539-bfd44ca5-6bc9-4b3c-bb58-1b8f05c89e7c.png)
 
 For Django documentation click this link -> https://docs.djangoproject.com/en/4.2/ 
+If you want to work on your Django project, I would recommend using an IDE like PyCharm or Studio Visual Code. 
 
 
