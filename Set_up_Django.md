@@ -7,6 +7,6 @@ Enter the following commands:
 
 ```sudo apt install```
 
- ```sudo apt install python3 python3-pip``` Install python3 and pip
+ ```sudo apt install python3 python3-pip```   Install python3 and pip
  
- ```sudo pip3 install django``` Install django
+ ```sudo pip3 install django```   Install django
