@@ -11,7 +11,7 @@ The localhost is the default name describing the local computer address also kno
 To see what is happening when we want to access the local host from outside our local host environment we have to type ```http://ip:port``` But this will not work because it is a local host so you will get a message: ip refused the connection.
 
 ## Deploy on IP-address with specific port number
-we need to run run the Djangoserver again, but this time in another way. We want to run the server on a specific ip and port. To do that, type this: 
+We need to run the Djangoserver again, but this time in another way. We want to run the server on a specific ip and port. To do that, type this: 
 ```python3 manage.py runserver 192.168.1.73:8000``` Where 192.168.1.73 is the IP of my Raspberry, and 8000 is the port. 
 
 So when we run this command, we can check if the port is really open. Use another device (for example your laptop) and enter this command in the terminal (for mac): 
@@ -23,7 +23,7 @@ When you run it, you will probably see this:
 
 
 So this is a good sign, we now know the port is open! 
-To see what is happening at a specific port, you can type in (for exmaple) google ```http://ip:portnumber``` where ip is the ip-address of the Raspberry and pornumber is 8000 in this case. It is important you do not type https, but http. The difference is explained later! 
+To see what is happening at a specific port, you can type in (for example) google ```http://ip:portnumber``` where ip is the ip-address of the Raspberry and portnumber is 8000 in this case. It is important you do not type https, but http. The difference is explained later! 
 
 When you run that command you will see this: 
 <img width="1021" alt="image" src="https://user-images.githubusercontent.com/124690871/233679005-be4f4f39-94c2-478e-ac8e-95b6413ab17e.png">
@@ -35,7 +35,7 @@ And when you are checking underneath your run-command at the Raspberry Pi, you c
 
 ## Difference between HTTP and HTTPS
 Basically HTTPS is HTTP with encryption. HTTP stands for Hyper Text Transfer Protocol. And the S stands for Secure. 
-For this project we use HTTP because it is default in Django. You can use HTTPS but then you have to to force redirect HTTP to HTTPS. You can do that by setting the SECURE_SSL_REDIRECT environment variable to True (in the settings.py). But this is a bit of an advanced topic and not necessary. For now, we just use HTTP! 
+For this project we use HTTP because it is default in Django. You can use HTTPS but then you have to force redirect HTTP to HTTPS. You can do that by setting the SECURE_SSL_REDIRECT environment variable to True (in the settings.py). But this is a bit of an advanced topic and not necessary. For now, we just use HTTP! 
 
 <img width="710" alt="image" src="https://user-images.githubusercontent.com/124690871/233687429-dfa7fe13-abf1-4cf5-ad8c-5974ce27e122.png">
 
@@ -43,7 +43,7 @@ For this project we use HTTP because it is default in Django. You can use HTTPS 
 
 ## Add ip to allowed hosts
 To be able to add our ip address to the ALLOWED_HOSTS list in Django, we need to open some files in our project, so quit running the server with ```CTRL + C```. We want to change the setting so first we need to change directory with ```cd```. 
-```cd test_app/``` When you hit ```ls``` now you can see there are multiple files in our project folder. For exmaple: 
+```cd test_app/``` When you hit ```ls``` now you can see there are multiple files in our project folder. For example: 
 - asgi.py
 - settings.py
 - urls.py
@@ -68,7 +68,7 @@ Then go back one file because we want to be able to access the manage.py file. S
 And again run the server on the specific ip and port! 
 
 You can try to access the server from another device and you will see the server!!
-For example when I enter ```http://192.168.1.73:8000``` in google on my laptop (so not connected in any physical way to the Raspberry Pi) I will also get the message of succesfully installation!
+For example when I enter ```http://192.168.1.73:8000``` in google on my laptop (so not connected in any physical way to the Raspberry Pi) I will also get the message of successfully installation!
 
 <img width="1523" alt="image" src="https://user-images.githubusercontent.com/124690871/233686113-d757498b-edae-4284-be1a-404c21e3a7eb.png">
 
