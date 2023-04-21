@@ -18,4 +18,29 @@ Enter the following commands:
  
  ``` sudo django-admin startproject test_app```    Make new django project named 'test_app'
  
+ 
+ 
  Use the commands ```cd``` and ```ls``` to change directory and to see whats in the directory. 
+ Use ```pwd``` to see your current position (print working directory). 
+ 
+ Go into the test_app and see whats in there. If it is good, there will be two files. 
+ - First the manage.py 
+ - Second the test_app file
+
+If those two files are in there, you succesfully made a django project. For now we have to set it up so we can run the project. 
+Run the command: 
+```sudo python3 manage.py migrate``` For migration on the django project
+
+If you hit ```ls``` now you can see django added a database in our project. So we are fully ready to run the project! 
+
+For running the project we need to call this command: 
+```python3 manage.py runserver```
+
+This command wil run the django server automatically on 127.0.0.1:8000 (port 8000). 
+So to see this, we just need to type this in our searchmachine (for example google). 
+
+If you did this, you should see this message: 
+
+![image](https://user-images.githubusercontent.com/124690871/233638539-bfd44ca5-6bc9-4b3c-bb58-1b8f05c89e7c.png)
+
+
