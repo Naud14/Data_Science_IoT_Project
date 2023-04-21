@@ -1,6 +1,6 @@
 # Set up Raspberry Pi 4 Computer Model B (4GB RAM)
 
-We are going to set up the Raspberry Pi computer. First you need to download a couple programs and you need the following atributes: 
+We are going to set up the Raspberry Pi computer. First you need to download a couple programs and you need the following attributes: 
 - Raspberry Pi 4
 - Power adapter 
 - External monitor
