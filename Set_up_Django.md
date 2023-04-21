@@ -6,5 +6,9 @@ Open the terminal on your Raspberry Pi (if you are not connected to your Raspber
 Enter the following commands: 
 
 ```sudo apt install```
+
+Install python3 and pip
  ```sudo apt install python3 python3-pip```
+ 
+Install django
  ```sudo pip3 install django```
