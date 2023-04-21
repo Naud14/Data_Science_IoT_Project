@@ -27,7 +27,7 @@ For now we are going to set up a connection to your laptop (using VNC viewer). V
 First we need to enable the VNC settings on our RP. GO to Menu -> Preferences -> Configuration -> Interfaces -> Turn on VNC and click 'ok'. In the right top there should be a VNC icon popping up. 
 For setting up an VNC connection we need to know what our ip-address is. We will use the terminal for that. Open the terminal, click on the 4th icon to the left on the top bar. Enter the command: 
 
-ifconfig
+```ifconfig```
 
 And you will see your ip-address at the wlan0: after inet. You can also check your ip-address at the vnc connect icon on the right top, it will show up under 'Connectivity'. 
 Now we know our ip-address we can start connection our laptop/PC to the RP. 
