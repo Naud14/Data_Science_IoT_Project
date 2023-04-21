@@ -37,9 +37,10 @@ For running the project we need to call this command:
 ```python3 manage.py runserver```
 
 This command wil run the django server automatically on 127.0.0.1:8000 (port 8000). 
-So to see this, we just need to type this in our searchmachine (for example google). 
+So to see this django website, we just need to type this ip-address and portnumber in our searchmachine (for example google). 
 
 If you did this, you should see this message: 
+It means your Django project is working! And as an local host! 
 
 ![image](https://user-images.githubusercontent.com/124690871/233638539-bfd44ca5-6bc9-4b3c-bb58-1b8f05c89e7c.png)
 
