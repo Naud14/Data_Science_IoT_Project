@@ -20,3 +20,15 @@ So when we run this command, we can check if the port is really open. Use anothe
 When you run it, you will probably see this: 
 
 <img width="426" alt="image" src="https://user-images.githubusercontent.com/124690871/233676934-948cd0ac-ccc3-4eb9-9b0b-67df291638ab.png">
+
+
+So this is a good sign, we now know the port is open! 
+To see what is happening at a specific port, you can type in (for exmaple) google ```http://ip:portnumber``` where ip is the ip-address of the Raspberry and pornumber is 8000 in this case. It is important you do not type https, but http. The difference is explained later! 
+
+When you run that command you will see this: 
+<img width="1021" alt="image" src="https://user-images.githubusercontent.com/124690871/233679005-be4f4f39-94c2-478e-ac8e-95b6413ab17e.png">
+
+And when you are checking underneath your runcommand at the Raspberry Pi, you can see someone wanted your project: 
+<img width="566" alt="image" src="https://user-images.githubusercontent.com/124690871/233679760-d659106a-f9b5-464e-be10-0dffd0cdf1f0.png">
+
+
