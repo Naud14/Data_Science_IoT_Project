@@ -33,6 +33,13 @@ The error message is 'invalid host header' ... 'You may need to add ... to ALLOW
 And when you are checking underneath your run-command at the Raspberry Pi, you can see someone wanted to access your project: 
 <img width="566" alt="image" src="https://user-images.githubusercontent.com/124690871/233679760-d659106a-f9b5-464e-be10-0dffd0cdf1f0.png">
 
+## Difference between HTTP and HTTPS
+Basically HTTPS is HTTP with encryption. HTTP stands for Hyper Text Transfer Protocol. And the S stands for Secure. 
+For this project we use HTTP because it is default in Django. You can use HTTPS but then you have to to force redirect HTTP to HTTPS. You can do that by setting the SECURE_SSL_REDIRECT environment variable to True (in the settings.py). But this is a bit of an advanced topic and not necessary. For now, we just use HTTP! 
+
+<img width="710" alt="image" src="https://user-images.githubusercontent.com/124690871/233687429-dfa7fe13-abf1-4cf5-ad8c-5974ce27e122.png">
+
+
 
 ## Add ip to allowed hosts
 To be able to add our ip address to the ALLOWED_HOSTS list in Django, we need to open some files in our project, so quit running the server with ```CTRL + C```. We want to change the setting so first we need to change directory with ```cd```. 
@@ -67,4 +74,6 @@ For example when I enter ```http://192.168.1.73:8000``` in google on my laptop (
 
 ## Conclusion
 When you came to this point, you can access with this ip and port the Django project from everywhere on your local network! So if you are connected to the same WIFI as the Raspberry is, you can access this project from every device! 
+
+I hope you learned something!!
 
