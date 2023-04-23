@@ -8,7 +8,7 @@ For this project I have combined two courses, Django for webdevelopment and this
 ## The idea + data-pipeline
 The idea of this project is to set up a website with the django-framework (Django is a high-level Python web framework that enables rapid development of secure and maintainable websites). For this project we are going to use a Raspberry Pi 4 for hosting this Django-website on a local network. 
 In short: Using the Raspberry Pi to set up a local host, upload our django project to it, and be able to access this django project from every device connected to this network.
-After talking with a Kevin Krul (a Django expert), he advised me to host your django website on a local server instead of directly to the internet. 
+After talking with Kevin Krul (Django expert), he advised me to host your django website on a local server instead of directly to the internet. 
 The most important point to host via Raspberry Pi on your local network, and not host to 'the internet' is a security measure. If you host directly to the internet it is asked to be hacked. If you want to do that, you should use a hosting-provider like Azure or Heroku. 
 
 !! You do not want to make an open and unsecure connection from your raspberry to the internet !!
